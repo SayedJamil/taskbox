@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-export const Button = ({ size = 'md', logo = 'plus', onClick, shape = 'square', backgroundColor = '#F26521' }) => {
+export const IconButton = ({ size = 'md', logo = 'plus', onClick, shape = 'square', backgroundColor = '#F26521' }) => {
   let scale = 5
   if (size === "sm") scale = 3
   if (size === "lg") scale = 8
@@ -30,7 +30,7 @@ export const Button = ({ size = 'md', logo = 'plus', onClick, shape = 'square', 
     </button>
   );
 };
-Button.propTypes = {
+IconButton.propTypes = {
   size: PropTypes.oneOf(['sm', 'md', 'lg']),
   shape: PropTypes.oneOf(['square', 'round']),
   logo: PropTypes.oneOf(['plus', 'minus']),

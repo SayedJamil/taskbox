@@ -5,5 +5,5 @@ export default {
   component: ArrowButton,
 }
 
-const Template = (args) => <ArrowButton {...args} />;
-export const Arrow_Button = Template.bind({})
+const Template564 = (args) => <ArrowButton {...args} />;
+export const Arrow_Button = Template564.bind({})
